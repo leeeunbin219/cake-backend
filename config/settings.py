@@ -110,10 +110,10 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': "django.db.backends.postgresql",
-        'NAME': "newcake",
-        'USER': "newcake",
+        'NAME': "caketable",
+        'USER': "caketable",
         'PASSWORD': "cake123!",
-        'HOST': "pg-g4pkb.vpc-pub-cdb-kr.ntruss.com",
+        'HOST': "pg-g4q73.vpc-pub-cdb-kr.ntruss.com",
         'PORT': "5432",
     }
 }
