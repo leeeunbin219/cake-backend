@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "cake-backend-table"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "cake_backend_table"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2"
+djangorestframework = "^3.14.0"
+djangorestframework-simplejwt = "^5.2.2"
+django-colorfield = "^0.8.0"
+django-environ = "^0.10.0"
+requests = "^2.28.2"
+bcrypt = "^4.0.1"
+django-cors-headers = "^3.14.0"
+axios = "^0.3.0"
+django-allauth = "^0.54.0"
+psycopg2-binary = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

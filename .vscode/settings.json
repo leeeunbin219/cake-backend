@@ -1,0 +1,4 @@
+{
+    "black-formatter.importStrategy": "fromEnvironment",
+    "python.formatting.provider": "black"
+}
